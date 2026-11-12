@@ -1,0 +1,1284 @@
+I’ll consolidate everything into one final master prompt. You will not need to give Google Maps, gallery photography, or enquiry-form instructions separately.
+
+One technical clarification: FormSubmit.co is a hosted form-to-email service rather than an open-source WordPress plugin. The prompt will require using FormSubmit.co as the sole enquiry-form submission service, with the receiving email address configurable from WordPress Admin.
+
+The final prompt below includes the independent Google Maps module, the exact mandatory gallery heading, and the complete enquiry-to-email workflow.
+
+# FINAL UNIVERSAL MASTER PROMPT
+
+## ANIKA PROFESSIONAL PAINTING SERVICES
+
+### Fully Editable, AI-Designed, Premium WordPress Business Website Theme
+
+**Platform: Google AI Studio – Build Mode**
+
+---
+
+# 1. PROJECT OBJECTIVE
+
+Build a complete, premium-quality, fully responsive and fully editable WordPress business website theme for **Anika Professional Painting Services**.
+
+The website must present the business as a professional residential and commercial painting service provider serving Hyderabad and Secunderabad, Telangana, India.
+
+This is a complete WordPress theme development project, not just a homepage design or static HTML website.
+
+The theme must include:
+
+- Professional frontend website.
+- Complete WordPress Admin customization dashboard.
+- Editable homepage sections and inner pages.
+- Individual service listings and service detail pages.
+- Original AI-generated photography.
+- Independent Google Maps module.
+- Working enquiry forms using FormSubmit.co.
+- WhatsApp floating support widget.
+- SEO and local business optimization.
+- Responsive layouts for desktop, tablet and mobile.
+- Downloadable, installable WordPress theme ZIP.
+
+**IMPORTANT:** Reuse the established architecture, design principles, admin customization approach and reusable components from the four previously developed WordPress themes. Do not create an unnecessarily different architecture or disturb established working functionality.
+
+# 2. BUSINESS INFORMATION
+
+Use the following business information as the initial website content.
+
+**Business Name:** Anika Professional Painting Services
+
+**Business Category:** Residential and Commercial Painting Services
+
+**Primary Service City:** Hyderabad
+
+**Additional Service City:** Secunderabad
+
+**State:** Telangana
+
+**Country:** India
+
+**Business Address:**
+
+Radhika Treater, 16/9, in front of Parivaar Restaurant, Arul Colony, APHB Colony, Kapra, Hyderabad, Secunderabad, Telangana 500062.
+
+**Phone:** +91 98665 92716
+
+**WhatsApp:** +91 98665 92716
+
+**Business Hours:** Monday–Sunday, Open 24 hours (as supplied; editable from Admin).
+
+**Supplied Business Rating:** 4.7/5 from 28 reviews.
+
+**Paint Brands:** Asian Paints, Berger and other premium brands.
+
+**Google Maps Location:**
+
+[https://maps.google.com/maps?svid=CCYSESoPCg0vZy8xMXozZGhsZG1wGAo&um=1&ie=UTF-8&fb=1&gl=in&sa=X&ftid=0x3bcb9d77ab554eb3:0xe1e6bdc6e24f4d64](https://maps.google.com/maps?svid=CCYSESoPCg0vZy8xMXozZGhsZG1wGAo\&um=1\&ie=UTF-8\&fb=1\&gl=in\&sa=X\&ftid=0x3bcb9d77ab554eb3:0xe1e6bdc6e24f4d64)
+
+**Additional Business Listing:**
+
+[https://www.hidoot.com/hyderabad/painters/list/37448/anika-professional-painting-services-secunderabad-in-hyderabad](https://www.hidoot.com/hyderabad/painters/list/37448/anika-professional-painting-services-secunderabad-in-hyderabad)
+
+All business information must be editable from WordPress Admin.
+
+Do not invent additional addresses, phone numbers, email addresses, awards, certifications, years of experience, guarantees, customer counts or project statistics.
+
+Do not claim official dealership or partnership with any paint manufacturer unless verified.
+
+# 3. EXISTING WORDPRESS ARCHITECTURE — MUST BE PRESERVED
+
+Build using native WordPress technology:
+
+- PHP
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Native WordPress APIs
+- WordPress database
+- WordPress Media Library
+- WordPress pages and posts
+- WordPress Custom Post Types where appropriate
+
+Do not use React as the WordPress frontend runtime.
+
+Do not use Supabase or Firebase.
+
+Do not introduce unnecessary external dependencies.
+
+The theme must have:
+
+- Modular and reusable template parts.
+- Clean separation of functionality and presentation.
+- Reusable components.
+- Secure WordPress hooks and APIs.
+- Maintainable code.
+- Proper enqueueing of CSS and JavaScript.
+- Translation-ready structure.
+- WordPress coding standards.
+- Responsive and accessible components.
+
+Reuse existing reusable architecture wherever possible.
+
+Do not rewrite working modules unnecessarily.
+
+# 4. WEBSITE STRUCTURE MODES
+
+The administrator must be able to select one of three website configurations.
+
+### Mode A: Single Page
+
+Display selected website sections on one long homepage.
+
+Navigation should scroll to the corresponding section.
+
+### Mode B: Multi-Page
+
+Use separate pages such as:
+
+- Home
+- About Us
+- Services
+- Individual Service Pages
+- Gallery
+- Contact Us
+- Google Maps (where configured as a standalone page)
+- Additional custom pages
+
+### Mode C: Hybrid
+
+Allow selected homepage sections to remain on the homepage while other content appears on separate pages.
+
+For example:
+
+- Homepage
+- About Us
+- Services
+- Gallery
+- Contact Us
+- Separate Google Maps page or section
+
+### Important structure rules
+
+- Switching modes must not delete existing content.
+- Hidden pages and sections must retain their content.
+- Navigation must automatically resolve to the correct page or section.
+- Administrators must be able to configure which sections appear on each page.
+- Google Maps must remain independent of Contact Us in all three modes.
+
+# 5. DESIGN SYSTEM
+
+Create four independently selectable design styles.
+
+1. Classic Professional
+2. Modern Premium
+3. Elegant Minimal
+4. Bold Creative
+
+Design styles control layout, spacing, typography treatment, cards, visual hierarchy and overall appearance.
+
+Also provide six independent color presets.
+
+| Color preset  | Primary | Secondary | Background | Accent  |
+| ------------- | ------- | --------- | ---------- | ------- |
+| Royal Blue    | #153E75 | #3B82F6   | #FFFFFF    | #DCEBFA |
+| Emerald Green | #064E3B | #10B981   | #FFFFFF    | #D1FAE5 |
+| Premium Gold  | #1F2937 | #C9A227   | #FFFFFF    | #F5EBD0 |
+| Ocean Teal    | #134E4A | #14B8A6   | #FFFFFF    | #CCFBF1 |
+| Burgundy      | #581C2B | #BE123C   | #FFFFFF    | #FCE7F3 |
+| Modern Purple | #3B0764 | #8B5CF6   | #FFFFFF    | #EDE9FE |
+
+Provide a custom color mode.
+
+Administrators must be able to customize:
+
+- Primary color.
+- Secondary color.
+- Accent color.
+- Background colors.
+- Text colors.
+- Heading colors.
+- Button colors.
+- Link colors.
+- Border colors.
+- Section backgrounds.
+
+Design styles and color presets must work independently. Changing one must not unexpectedly reset the other.
+
+# 6. HEADER AND NAVIGATION
+
+Create a premium responsive header.
+
+Include:
+
+- Business logo.
+- Business name.
+- Navigation menu.
+- Call Now button.
+- WhatsApp button.
+- Primary enquiry CTA.
+
+All header elements must be editable.
+
+Admin must be able to:
+
+- Upload or replace the logo.
+- Edit logo size.
+- Change header background.
+- Change text and button colors.
+- Select header layout.
+- Enable or disable sticky header.
+- Enable or disable individual navigation links.
+- Reorder navigation links.
+- Add custom navigation links.
+- Configure mobile navigation.
+- Edit CTA labels and destinations.
+
+# 7. HOMEPAGE SECTIONS
+
+Create a professionally designed homepage with the following sections.
+
+Each section must have its own independent visibility toggle, content settings and layout controls.
+
+### Section 1: Hero
+
+Suggested headline:
+
+**Transform Your Space with Professional Painting Services**
+
+Suggested supporting text:
+
+Give your home or commercial property a fresh, beautiful look with professional painting, premium finishes and reliable painting solutions across Hyderabad and Secunderabad.
+
+Buttons:
+
+- Get a Free Estimate
+- Call Now
+- WhatsApp Us
+
+Allow editable background images, overlay, headline, description, CTA labels, links and layout.
+
+### Section 2: About Anika
+
+Introduce the business and its painting services.
+
+All text and images must be editable.
+
+### Section 3: Services Overview
+
+Display the main painting services using individual images and dedicated CTAs.
+
+### Section 4: Why Choose Anika
+
+Editable selling points such as:
+
+- Residential and commercial painting solutions.
+- Interior and exterior painting.
+- Designer texture finishes.
+- Premium paint options.
+- Surface preparation.
+- Waterproofing solutions.
+- Professional cleanup.
+
+Do not make unverified claims about warranties, certifications or guaranteed results.
+
+### Section 5: Painting Solutions
+
+Highlight different property types and painting requirements, including homes, apartments, villas and commercial spaces.
+
+### Section 6: Painting Brands
+
+Show Asian Paints, Berger and other editable brand names or logos.
+
+Use replaceable image assets. Do not imply official partnerships.
+
+### Section 7: Gallery Preview
+
+Show selected gallery photographs with a button to view the full gallery.
+
+### Section 8: Painting Process
+
+Suggested steps:
+
+1. Contact and Enquiry
+2. Site Inspection and Requirement Discussion
+3. Estimate and Planning
+4. Surface Preparation
+5. Painting and Finishing
+6. Final Inspection and Cleanup
+
+### Section 9: Business Highlights
+
+Show editable business information and verified business details.
+
+The supplied rating of 4.7/5 and 28 reviews may be displayed, with an independent visibility setting.
+
+### Section 10: Customer Reviews
+
+Create an editable testimonials module.
+
+Do not generate fake customer reviews or invented customer identities.
+
+Only show genuine reviews entered or verified by the administrator.
+
+### Section 11: Service Areas
+
+Highlight Hyderabad and Secunderabad.
+
+Allow the administrator to add or remove confirmed service areas.
+
+Do not claim coverage across the entire state of Telangana without confirmation.
+
+### Section 12: Frequently Asked Questions
+
+Provide editable questions and answers about painting services, estimates, preparation, paint finishes and other relevant topics.
+
+### Section 13: Final Enquiry CTA
+
+Suggested heading:
+
+**Ready to Give Your Property a Fresh New Look?**
+
+Buttons:
+
+- Request a Free Estimate
+- Call Now
+- WhatsApp Us
+
+All thirteen sections must be individually editable, reorderable and hideable.
+
+The administrator must also be able to add new sections where supported by the architecture.
+
+# 8. COMPLETE SERVICES MANAGEMENT SYSTEM
+
+Create a dedicated Services Manager in WordPress Admin.
+
+Initially add the following 22 services.
+
+### Exterior and Property Painting
+
+1. Exterior Painting
+2. Villa Painting
+3. Apartment Painting
+4. Roof Painting
+
+### Interior and Decorative Painting
+
+5. Interior Painting
+6. Texture
+7. Fresh Painting
+8. Repainting
+9. Putty
+
+### Wood and Furniture
+
+10. Door Painting
+11. Deck Painting
+12. Furniture Painting
+13. Wood Painting
+14. Wood Staining
+15. Wood Varnishing
+
+### Specialized Painting and Repairs
+
+16. Drywall Painting
+17. Metal Painting
+18. Spray Painting
+19. Wallpaper Removal
+20. Water-Damage Repair
+
+### Additional Services
+
+21. Waterproofing
+22. Post-Painting Cleanup
+
+### Service Manager functionality
+
+Every service must have:
+
+- Service title.
+- Individual image.
+- Short description.
+- Full description.
+- Service category.
+- CTA button label.
+- CTA destination.
+- Optional dedicated service page.
+- SEO title.
+- SEO description.
+- Visibility toggle.
+- Display order.
+
+Admin must be able to:
+
+- Add services.
+- Edit services.
+- Delete services.
+- Duplicate services.
+- Reorder services.
+- Create categories.
+- Add new categories.
+- Assign individual images.
+- Change CTA labels and links.
+- Enable or disable individual services.
+- Create dedicated service pages.
+- Control whether a service appears on the homepage.
+
+Every service card must have its own suitable image and CTA.
+
+Do not reuse one generic image across unrelated services.
+
+# 9. INDIVIDUAL SERVICE DETAIL PAGES
+
+Create a reusable service detail page template.
+
+Each service page should support:
+
+- Service-specific hero image.
+- Service title.
+- Introduction.
+- Detailed service description.
+- Benefits.
+- Suitable applications.
+- Painting process.
+- Related services.
+- Gallery images.
+- Enquiry CTA.
+- Call button.
+- WhatsApp button.
+
+The content must be dynamically populated from the Services Manager.
+
+Do not create duplicate hardcoded pages for every service.
+
+# 10. GALLERY
+
+## ORIGINAL AI-GENERATED PHOTOGRAPHY — MANDATORY
+
+This requirement is compulsory.
+
+Generate original, photorealistic AI-generated photography specifically for Anika Professional Painting Services.
+
+Do not depend on generic stock photographs or copied images from other websites.
+
+Create original, visually distinct painting photographs covering:
+
+- Luxury residential interiors.
+- Modern Indian home interiors.
+- Exterior houses.
+- Luxury villas.
+- Apartment painting.
+- Designer texture walls.
+- Decorative wall finishes.
+- Furniture painting.
+- Wooden doors.
+- Deck painting.
+- Wood staining and varnishing.
+- Metal painting.
+- Spray painting.
+- Roof painting.
+- Waterproofing.
+- Wall repair and water-damage restoration.
+- Fresh painting.
+- Repainting.
+
+### Image generation rules
+
+- Use realistic, premium-quality photography.
+- Show believable painting environments.
+- Use natural lighting and professional composition.
+- Avoid artificial-looking or distorted painting tools and surfaces.
+- Avoid repeating identical images across unrelated service cards.
+- Generate images suitable for desktop and mobile layouts.
+- Optimize images for website performance.
+- Use different compositions and perspectives.
+- Use original images specifically created for this business website.
+
+### Gallery title
+
+**Painting Inspiration & Our Services**
+
+### Gallery management
+
+Create a complete Gallery Manager in WordPress Admin.
+
+Allow administrators to:
+
+- Upload images.
+- Replace images.
+- Edit image titles.
+- Edit descriptions.
+- Assign categories.
+- Add alternative text.
+- Reorder images.
+- Delete images.
+- Enable or disable images.
+- Choose gallery layouts.
+- Configure image display size.
+- Select images for homepage previews.
+- Control gallery visibility.
+
+Use WordPress Media Library.
+
+### Important accuracy requirement
+
+AI-generated gallery images are illustrative representations of painting services and inspiration.
+
+Do not label generated images as actual completed Anika customer projects, genuine customer testimonials or verified before-and-after work.
+
+Any conceptual before-and-after images must be clearly presented as illustrative transformations.
+
+The administrator must be able to replace generated images with genuine company photographs later.
+
+# 11. GOOGLE MAPS — MANDATORY INDEPENDENT MODULE
+
+Create a dedicated Google Maps module with its own identity, settings, visibility controls and display logic.
+
+**CRITICAL: DO NOT ADD OR EMBED THE GOOGLE MAP INSIDE CONTACT US.**
+
+The Google Maps module must operate independently of the Contact Us module.
+
+### Independent visibility toggle
+
+Provide a dedicated Enable/Disable toggle button in WordPress Admin.
+
+- Enabled: display the Google Maps section at its configured location.
+- Disabled: hide the entire map section from the frontend.
+- Disabling the map must not delete its settings, content or saved location.
+- Enabling or disabling the map must not affect the Contact Us page or Contact Us form.
+
+### Google Maps settings
+
+Allow administrators to:
+
+- Enable or disable the entire Google Maps module.
+- Choose the page where the map appears.
+- Select a standalone page or a separate section on a selected page.
+- Choose section position and order.
+- Edit the map title.
+- Edit the map description.
+- Edit the Google Maps embed URL.
+- Configure map height and width.
+- Customize the section layout.
+- Configure zoom where supported by the embed.
+- Edit the Get Directions button label.
+- Edit the Get Directions destination URL.
+- Control desktop and mobile visibility.
+
+### Initial map information
+
+Use the supplied Anika business location and Google Maps link.
+
+Do not invent coordinates or use an unverified business location.
+
+### Responsive behavior
+
+The map must work on:
+
+- Desktop.
+- Tablet.
+- Mobile.
+
+### Website structure compatibility
+
+The independent Google Maps module must work in:
+
+- Single Page mode.
+- Multi-Page mode.
+- Hybrid mode.
+
+Preserve its settings when switching between website modes.
+
+**NON-NEGOTIABLE RULE:** Google Maps must never be automatically inserted inside Contact Us. It must always have its own independent identity and Enable/Disable control.
+
+# 12. CONTACT US PAGE
+
+Create a dedicated Contact Us page.
+
+Include:
+
+- Business name.
+- Editable address.
+- Phone number.
+- WhatsApp number.
+- Business hours.
+- Contact information.
+- Enquiry form.
+- Call Now CTA.
+- WhatsApp CTA.
+
+Do not insert the Google Map into this page.
+
+The map is managed separately through the independent Google Maps module.
+
+All Contact Us content must be editable.
+
+# 13. ENQUIRY FORM — FORMSUBMIT.CO INTEGRATION MANDATORY
+
+Create a fully functional enquiry submission system using **FormSubmit.co**.
+
+Use FormSubmit.co as the required form-to-email delivery service.
+
+Do not replace it with Supabase, Firebase, a different form provider or an unrelated backend email service.
+
+Do not build an unnecessary custom email backend.
+
+### Administrator-configurable receiving email
+
+In WordPress Admin, create a dedicated Enquiry Form Settings section.
+
+The administrator must be able to:
+
+- Enter the receiving email address.
+- Change the receiving email address at any time.
+- Enable or disable the enquiry form.
+- Edit the form heading.
+- Edit the submit button label.
+- Edit the success message.
+- Edit the error message.
+- Edit the email subject.
+- Configure the thank-you page or redirect destination.
+- Add, edit, remove and reorder form fields.
+- Mark fields as required or optional.
+
+The receiving email address must never be hardcoded into the theme.
+
+### Default enquiry form fields
+
+Initially include:
+
+1. Full Name
+2. Phone Number
+3. Email Address
+4. Service Required
+5. Property Type
+6. City / Location
+7. Message
+
+Allow the administrator to add more fields.
+
+### Form submission behavior
+
+When a visitor submits the enquiry:
+
+1. Validate all required fields.
+2. Validate the email and phone formats where applicable.
+3. Submit the enquiry to the administrator-configured recipient through FormSubmit.co.
+4. Include the visitor's submitted information in the email.
+5. Include the selected service and relevant page or enquiry source where available.
+6. Display a clear success message after successful submission.
+7. Display a useful error message if submission fails.
+8. Prevent accidental duplicate submissions while a submission is being processed.
+9. Provide a suitable thank-you page or redirect if configured.
+
+### FormSubmit configuration
+
+Use the FormSubmit endpoint based on the administrator-configured receiving email.
+
+The implementation must support FormSubmit's recipient verification process. Provide clear setup instructions explaining that the receiving email may need to be verified through FormSubmit before submissions are delivered.
+
+Use supported FormSubmit configuration options where appropriate, including:
+
+- Email subject.
+- Email template.
+- Redirect destination.
+- Spam protection.
+- Honeypot field.
+
+Do not falsely report a successful submission when delivery has failed.
+
+Do not expose unnecessary secret credentials in frontend code.
+
+### Security and privacy
+
+- Sanitize and validate all submitted data.
+- Use appropriate spam protection.
+- Include a honeypot field.
+- Do not trust client-side validation alone.
+- Do not store unnecessary personal information.
+- Provide a privacy notice near the form.
+- Never display the administrator's receiving email publicly unless the administrator explicitly chooses to do so.
+
+### Important testing requirement
+
+Test the form with the configured recipient email.
+
+Verify that a real test submission reaches the configured inbox after FormSubmit recipient verification.
+
+Do not claim that email delivery works until it has been tested successfully.
+
+# 14. WHATSAPP FLOATING SUPPORT WIDGET
+
+Create a floating WhatsApp support widget using the official WhatsApp logo.
+
+Do not use a generic chat icon as a replacement.
+
+Initial WhatsApp number:
+
++91 98665 92716
+
+Allow the administrator to:
+
+- Change the WhatsApp number.
+- Edit the default prefilled message.
+- Enable or disable the widget.
+- Position it on the left or right.
+- Customize appearance.
+- Configure desktop visibility.
+- Configure mobile visibility.
+- Edit button size and spacing.
+
+The widget must open the correct WhatsApp conversation.
+
+Do not create duplicate floating widgets.
+
+# 15. WORDPRESS ADMIN CUSTOMIZATION DASHBOARD
+
+Create a professional and easy-to-use customization dashboard.
+
+Organize settings into clear modules.
+
+Suggested dashboard navigation:
+
+1. Dashboard Overview
+2. Business Information
+3. Website Structure
+4. Design Style
+5. Color Presets
+6. Typography
+7. Header Settings
+8. Homepage Builder
+9. Services Manager
+10. Gallery Manager
+11. Pages Manager
+12. Google Maps Settings
+13. Contact Information
+14. Enquiry Form Settings
+15. WhatsApp Settings
+16. Footer Settings
+17. SEO Settings
+18. Advanced Settings
+
+### Admin editing requirements
+
+Administrators must be able to edit:
+
+- All text.
+- All headings.
+- All descriptions.
+- All images.
+- All icons.
+- All CTA labels.
+- All CTA links.
+- Section backgrounds.
+- Section visibility.
+- Section order.
+- Page content.
+- Navigation.
+- Footer.
+- Service details.
+- Gallery content.
+- Map settings.
+- Contact information.
+- Form fields and receiving email.
+- WhatsApp settings.
+
+No important website content should require editing PHP files.
+
+### Preview and saving
+
+Provide clear Save Settings functionality.
+
+Where feasible, provide frontend preview functionality.
+
+Saving one module must not unexpectedly reset settings in another module.
+
+Preserve existing content when settings are changed.
+
+# 16. TYPOGRAPHY AND LAYOUT CUSTOMIZATION
+
+Provide typography controls for:
+
+- Heading font.
+- Body font.
+- Font sizes.
+- Font weights.
+- Line heights.
+- Letter spacing.
+- Heading hierarchy.
+
+Provide layout controls for:
+
+- Content width.
+- Section spacing.
+- Container spacing.
+- Card radius.
+- Button radius.
+- Card shadows.
+- Border styles.
+- Image aspect ratios.
+- Grid columns.
+- Section alignment.
+
+Ensure the website remains visually consistent after customization.
+
+# 17. FOOTER
+
+Create a premium responsive footer.
+
+Include:
+
+- Business logo.
+- Business name.
+- Short business description.
+- Navigation links.
+- Service links.
+- Contact information.
+- Phone number.
+- WhatsApp link.
+- Social links.
+- Copyright text.
+
+Every footer element must be editable.
+
+Allow administrators to enable or disable individual footer elements.
+
+# 18. SEO AND LOCAL BUSINESS OPTIMIZATION
+
+Implement proper on-page SEO.
+
+Include:
+
+- Editable SEO title.
+- Meta description.
+- Semantic HTML structure.
+- Correct heading hierarchy.
+- Image alternative text.
+- Clean URLs.
+- XML sitemap compatibility.
+- Canonical URL support where appropriate.
+- Open Graph metadata.
+- Local Business structured data.
+- Service-specific SEO content.
+- Mobile-friendly layouts.
+- Performance optimization.
+
+Use the supplied Hyderabad and Secunderabad business information.
+
+Do not generate fake addresses, fake ratings or unverified business information in structured data.
+
+Avoid duplicate metadata and duplicate structured data.
+
+# 19. RESPONSIVE DESIGN
+
+The website must be fully responsive.
+
+Test and optimize for:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Mobile phones.
+
+Requirements:
+
+- Responsive navigation.
+- Responsive hero sections.
+- Proper image scaling.
+- Readable typography.
+- Mobile-friendly CTA buttons.
+- Responsive service grids.
+- Responsive gallery.
+- Responsive forms.
+- Responsive Google Maps.
+- Proper spacing and alignment.
+
+Do not allow horizontal overflow.
+
+# 20. PERFORMANCE AND SECURITY
+
+Follow WordPress security best practices.
+
+Include:
+
+- Nonce verification for administrative actions.
+- Capability checks.
+- Sanitization.
+- Escaping.
+- Validation.
+- Secure option handling.
+- Safe file upload handling.
+- Proper enqueueing.
+- No unnecessary database queries.
+- Optimized images.
+- Lazy loading where appropriate.
+- Minimized unnecessary scripts and styles.
+
+Use WordPress APIs instead of unsafe custom alternatives wherever possible.
+
+# 21. THEME FILE STRUCTURE
+
+Use a clean, maintainable theme structure.
+
+Suggested structure:
+
+```
+anika-professional-painting/
+│
+├── style.css
+├── functions.php
+├── index.php
+├── front-page.php
+├── header.php
+├── footer.php
+├── page.php
+├── single.php
+├── archive.php
+├── single-service.php
+├── archive-service.php
+├── screenshot.png
+│
+├── inc/
+│   ├── setup.php
+│   ├── enqueue.php
+│   ├── admin/
+│   │   ├── dashboard.php
+│   │   ├── business-settings.php
+│   │   ├── design-settings.php
+│   │   ├── homepage-settings.php
+│   │   ├── services-manager.php
+│   │   ├── gallery-manager.php
+│   │   ├── maps-settings.php
+│   │   ├── forms-settings.php
+│   │   ├── whatsapp-settings.php
+│   │   └── seo-settings.php
+│   ├── post-types.php
+│   ├── customizer.php
+│   ├── forms.php
+│   ├── seo.php
+│   └── helpers.php
+│
+├── template-parts/
+│   ├── sections/
+│   ├── cards/
+│   ├── services/
+│   ├── gallery/
+│   ├── maps/
+│   ├── forms/
+│   └── components/
+│
+├── templates/
+│   ├── page-about.php
+│   ├── page-services.php
+│   ├── page-gallery.php
+│   ├── page-contact.php
+│   └── page-maps.php
+│
+└── assets/
+    ├── css/
+    ├── js/
+    ├── images/
+    └── fonts/
+```
+
+You may adjust the exact file structure when technically necessary, but preserve modularity and clear separation of responsibilities.
+
+Do not create unnecessary duplicate files or duplicate functionality.
+
+# 22. WORDPRESS CONTENT STORAGE
+
+Use appropriate native WordPress content structures.
+
+Suggested:
+
+- Services: Custom Post Type.
+- Gallery: Custom Post Type or structured gallery entries.
+- Testimonials: Custom Post Type.
+- Projects: Optional Custom Post Type if needed.
+- Pages: Native WordPress pages.
+- Theme settings: WordPress options and appropriate settings APIs.
+- Images: WordPress Media Library.
+
+Content must remain available after theme settings or website structure modes change.
+
+Do not delete content simply because a section is hidden.
+
+# 23. TESTING AND QUALITY ASSURANCE
+
+Do not consider the theme complete just because the frontend looks attractive.
+
+Test all major functionality.
+
+### Website tests
+
+- Theme activation.
+- Theme deactivation.
+- Homepage rendering.
+- Inner page rendering.
+- Single Page mode.
+- Multi-Page mode.
+- Hybrid mode.
+- Navigation.
+- Mobile navigation.
+- Responsive layouts.
+
+### Admin tests
+
+- Saving settings.
+- Editing business information.
+- Changing colors.
+- Changing design styles.
+- Editing typography.
+- Editing homepage sections.
+- Hiding and showing sections.
+- Reordering sections.
+- Adding and editing services.
+- Replacing service images.
+- Adding and editing gallery images.
+- Editing page content.
+- Editing footer content.
+
+### Independent Google Maps tests
+
+- Enable map.
+- Disable map.
+- Verify that disabling it hides the frontend map.
+- Verify that saved settings remain intact.
+- Verify that Contact Us is unaffected.
+- Verify that the map never appears inside Contact Us.
+- Verify that its configured page and position work.
+- Verify responsive behavior.
+
+### FormSubmit tests
+
+- Configure receiving email.
+- Complete FormSubmit recipient verification.
+- Submit a test enquiry.
+- Verify that the email reaches the configured inbox.
+- Test required fields.
+- Test invalid email.
+- Test invalid phone number.
+- Test spam protection.
+- Test error and success feedback.
+- Test thank-you redirect.
+- Test mobile form submission.
+
+### WhatsApp tests
+
+- Enable and disable widget.
+- Verify number.
+- Verify message.
+- Verify left/right position.
+- Verify desktop/mobile display.
+- Verify correct WhatsApp link.
+
+### SEO and performance tests
+
+- Check metadata.
+- Check image alt text.
+- Check heading structure.
+- Check structured data.
+- Check responsive behavior.
+- Check page loading.
+- Check browser console errors.
+
+**Never report a test as passed if it was not actually performed.**
+
+Provide a testing report identifying:
+
+- Passed tests.
+- Failed tests.
+- Fixed issues.
+- Remaining issues.
+- Features requiring a live WordPress environment.
+
+# 24. DEVELOPMENT PHASES
+
+Develop the project in controlled phases.
+
+Do not skip phases.
+
+### Phase 1: Requirements and Architecture
+
+- Review all requirements.
+- Confirm existing reusable architecture.
+- Plan the theme structure.
+- Plan content storage.
+- Plan admin modules.
+- Plan independent Google Maps integration.
+- Plan FormSubmit integration.
+- Present architecture before implementation.
+
+### Phase 2: Design System
+
+- Implement four design styles.
+- Implement six color presets.
+- Implement custom colors.
+- Implement typography.
+- Implement reusable layout components.
+
+### Phase 3: WordPress Foundation
+
+- Create theme structure.
+- Implement theme setup.
+- Implement reusable components.
+- Implement custom post types.
+- Implement settings framework.
+- Implement native WordPress content storage.
+
+### Phase 4: Frontend Website
+
+- Build header.
+- Build hero.
+- Build all homepage sections.
+- Build footer.
+- Build responsive navigation.
+- Build Single Page, Multi-Page and Hybrid behavior.
+
+### Phase 5: Services and Gallery
+
+- Implement Services Manager.
+- Add all 22 initial services.
+- Implement individual service templates.
+- Generate original AI photography.
+- Implement Gallery Manager.
+- Add image replacement and visibility controls.
+
+### Phase 6: Independent Google Maps
+
+- Implement dedicated Maps module.
+- Add its own Enable/Disable toggle.
+- Add independent page selection and position.
+- Add map URL and directions settings.
+- Verify it is never embedded in Contact Us.
+
+### Phase 7: Enquiry Forms and WhatsApp
+
+- Implement FormSubmit.co integration.
+- Add configurable receiving email.
+- Implement form settings.
+- Implement validation and spam protection.
+- Implement WhatsApp widget.
+- Test both integrations.
+
+### Phase 8: Admin Customization
+
+- Complete all admin modules.
+- Implement independent settings.
+- Implement section visibility and ordering.
+- Verify content preservation.
+
+### Phase 9: SEO, Responsiveness and Optimization
+
+- Implement SEO features.
+- Optimize images.
+- Test desktop, tablet and mobile.
+- Fix responsive issues.
+
+### Phase 10: Quality Assurance and Final Export
+
+- Run functional tests.
+- Fix identified issues.
+- Prepare final documentation.
+- Package installable theme ZIP.
+- Verify ZIP structure and installation.
+
+# 25. FINAL ZIP EXPORT REQUIREMENTS
+
+Deliver one clean, installable WordPress theme ZIP.
+
+The ZIP must contain one theme folder at its root.
+
+Example:
+
+```
+anika-professional-painting.zip
+└── anika-professional-painting/
+    ├── style.css
+    ├── functions.php
+    ├── index.php
+    └── ...
+```
+
+Do not include unnecessary nested ZIP files, temporary files, development caches or unrelated folders.
+
+Provide:
+
+- Final theme ZIP.
+- Installation instructions.
+- Admin setup instructions.
+- FormSubmit email verification instructions.
+- Google Maps configuration instructions.
+- Theme customization instructions.
+- Testing report.
+
+# 26. NON-NEGOTIABLE DEVELOPMENT RULES
+
+1. Build a real WordPress theme, not a static website.
+2. Reuse the established architecture from the previous WordPress themes.
+3. Do not use React as the WordPress frontend runtime.
+4. Do not use Supabase or Firebase.
+5. Use native WordPress APIs and Media Library.
+6. Make all important website content editable.
+7. Keep design styles independent from color presets.
+8. Preserve content when switching website structure modes.
+9. Generate original AI photography for the gallery and service visuals.
+10. Use the exact gallery instruction: **ORIGINAL AI-GENERATED PHOTOGRAPHY — MANDATORY**.
+11. Do not misrepresent AI-generated images as actual completed customer projects.
+12. Google Maps must have its own independent identity and Enable/Disable toggle.
+13. Google Maps must NEVER be embedded automatically inside Contact Us.
+14. Enabling or disabling Google Maps must not affect Contact Us.
+15. Use FormSubmit.co for enquiry email delivery.
+16. Make the receiving email configurable through WordPress Admin.
+17. Do not hardcode the receiving email.
+18. Do not claim email delivery works until a real test is successful.
+19. Use the official WhatsApp logo.
+20. Do not create duplicate WhatsApp widgets.
+21. Do not fabricate reviews, certifications, awards or business facts.
+22. Do not disturb existing working modules when implementing new features.
+23. Test functionality instead of relying only on visual inspection.
+24. Do not mark incomplete features as complete.
+25. Deliver a clean installable ZIP.
+
+# 27. FINAL ACCEPTANCE CRITERIA
+
+The project will be considered complete only when:
+
+- The WordPress theme installs and activates correctly.
+- The website looks professional and works responsively.
+- All three website structure modes function correctly.
+- All four design styles are available.
+- All six color presets work independently.
+- All 22 initial services are available and editable.
+- Each service supports its own image and CTA.
+- Original AI-generated photography is included.
+- Gallery content is editable.
+- The Google Maps module is independent and separately toggleable.
+- Google Maps never appears inside Contact Us.
+- Map settings remain saved when the module is disabled.
+- Enquiry forms submit through FormSubmit.co.
+- The receiving email can be changed from WordPress Admin.
+- Real email delivery has been tested.
+- WhatsApp works correctly.
+- Homepage and inner pages are editable.
+- SEO and responsive requirements are implemented.
+- Testing results are documented.
+- The final theme ZIP is clean and installable.
+
+---
+
+# FINAL INSTRUCTION TO GOOGLE AI STUDIO
+
+Treat this document as the **complete and final project specification**.
+
+Do not ask the user to provide separate prompts for gallery photography, Google Maps, FormSubmit, admin settings, services, responsive design or other requirements already included here.
+
+Do not omit any mandatory feature.
+
+First analyze the complete specification and the existing reusable WordPress theme architecture. Present the proposed implementation architecture and Phase 1 plan.
+
+Then develop the theme phase by phase, preserving all approved requirements.
+
+Do not generate a superficial demo and call it a completed WordPress theme.
+
+Build the actual functional, editable, secure and installable WordPress theme.
+
+**The objective is a production-ready professional business website for Anika Professional Painting Services, with every specified feature implemented, tested and documented.**
+
+Important: This is now the consolidated master prompt. Give the complete prompt to Google AI Studio Build Mode as one project specification; you do not need to send the earlier separate map, gallery or form instructions again.&#x20;
